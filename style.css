@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: red;
+    background-color: #171717;
     color: #CCCCCC;
     
     -webkit-font-smoothing: antialiased;
@@ -32,7 +32,7 @@ body {
 
 #header h1 {
     color: #fff;
-
+    
 }
 
 h1 {
