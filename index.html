@@ -48,7 +48,7 @@
           <a href="mailto:dipalibajaj9@gmail.com">Say hello -></a>
         </div>
       </div>
-      <div id="product-component-1663165353890"></div>
+      <div id="product-component-1663173862793"></div>
       <script type="text/javascript">
         /*<![CDATA[*/
         (function () {
@@ -80,9 +80,9 @@
             });
             ShopifyBuy.UI.onReady(client).then(function (ui) {
               ui.createComponent("product", {
-                id: "7668226654456",
+                id: "7667763871992",
                 node: document.getElementById(
-                  "product-component-1663165353890"
+                  "product-component-1663173862793"
                 ),
                 moneyFormat: "Rs.%20%7B%7Bamount%7D%7D",
                 options: {
@@ -107,9 +107,13 @@
                         "border-radius": "6px",
                       },
                     },
-                    buttonDestination: "checkout",
+                    contents: {
+                      img: false,
+                      title: false,
+                      price: false,
+                    },
                     text: {
-                      button: "Buy now",
+                      button: "Add to cart",
                     },
                   },
                   productSet: {
